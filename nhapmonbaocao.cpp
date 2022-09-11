@@ -19,7 +19,7 @@ void SelectionSort(int arr[], int n) {
 }
 
 
-void InsertionSort(int a[], int n)
+void InsertionSort(int arr[], int n)
 	{	
 	int pos, x;
 	for (int i = 1; i < n; i++) {
