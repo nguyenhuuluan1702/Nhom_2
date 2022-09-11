@@ -5,7 +5,7 @@ void swap(int & xp, int & yp) {
     xp = yp;
     yp = temp;
 }
-<<<<<<< HEAD
+
 void SelectionSort(int arr[], int n) {
         int i, j, min;
         for (i = 0; i < n - 1; i++) {
@@ -18,23 +18,9 @@ void SelectionSort(int arr[], int n) {
         }
 }
 
-void InsertionSort(int arr[], int n) {
-=======
-void SelectionSort(int arr[], int n)
-{
-    int i, j, min;
-    for (i = 0; i < n-1; i++)
-    {
-    min = i;
-    for (j = i+1; j < n; j++)
-        if (arr[j] < arr[min])
-        min = j;
-    }
-        swap(arr[min], arr[i]);
- }
+
 void InsertionSort(int a[], int n)
 	{	
->>>>>>> 005f9a82fb2544cbace963feebeb2cd72bc7332f
 	int pos, x;
 	for (int i = 1; i < n; i++) {
 		x = arr[i];
@@ -47,8 +33,3 @@ void InsertionSort(int a[], int n)
 	}
 }
 
-int main()
-{
-	return 0;
-
-}
