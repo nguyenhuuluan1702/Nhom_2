@@ -19,6 +19,7 @@ void SelectionSort(int arr[], int n)
  
         swap(arr[min], arr[i]);
     }
+}
 
 void InsertionSort(int a[], int n)
 	{	
