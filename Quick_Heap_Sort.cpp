@@ -71,27 +71,27 @@ void Xuatmang(int a[], int n)
 int main()
 {
     int a[] = {12, 2, 8, 10, 1, 6, 4, 15};
-	int N=8; 
+    int N=8; 
     
     Xuatmang(a,N);
-	printf("\nSelectionSort: ");
-	SelectionSort(a,N);
-	Xuatmang(a,N);
-	printf("\nInsertionSort: ");
-	InsertionSort(a, N);
-	Xuatmang(a,N);
-	printf("\nInterchangeSort: ");
-	Interchange_Sort(a,N);
-	Xuatmang(a,N);
-	printf("\nBubbleSort: ");
-	Bubble_Sort(a, N);
-	Xuatmang(a,N);
+    printf("\nSelectionSort: ");
+    SelectionSort(a,N);
+    Xuatmang(a,N);
+    printf("\nInsertionSort: ");
+    InsertionSort(a, N);
+    Xuatmang(a,N);
+    printf("\nInterchangeSort: ");
+    Interchange_Sort(a,N);
+    Xuatmang(a,N);
+    printf("\nBubbleSort: ");
+    Bubble_Sort(a, N);
+    Xuatmang(a,N);
     printf("\nQuickSort: ");
-	QuickSort(a,0, N);
-	Xuatmang(a,N);
+    QuickSort(a, N, N);
+    Xuatmang(a,N);
     printf("\nHeapSort: ");
-	HeapSort(a, 0, N);
-	Xuatmang(a,N);
+    HeapSort(a, N, N);
+    Xuatmang(a,N);
 }
 
 
