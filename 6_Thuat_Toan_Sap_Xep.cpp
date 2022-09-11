@@ -131,10 +131,10 @@ int main()
 	printf("\nBubble_Sort: ");
 	Bubble_Sort(a, N);
 	Xuatmang(a,N);
-    printf("\nQuickSort: ");
+        printf("\nQuickSort: ");
 	QuickSort(a,0, N);
 	Xuatmang(a,N);
-    printf("\nHeapSort: ");
+        printf("\nHeapSort: ");
 	HeapSort(a, 0, N);
 	Xuatmang(a,N);
 }
