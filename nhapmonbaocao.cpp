@@ -15,9 +15,9 @@ void SelectionSort(int arr[], int n)
     for (j = i+1; j < n; j++)
         if (arr[j] < arr[min])
         min = j;
- 
-        swap(arr[min], arr[i]);
     }
+        swap(arr[min], arr[i]);
+ }
 void InsertionSort(int a[], int n)
 	{	
 	int pos, x;
